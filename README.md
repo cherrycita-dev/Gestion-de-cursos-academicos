@@ -29,8 +29,8 @@ Interfaces:
   - Calificable -> Método calcularPromedio() (para estudiantes).
 Clase abstracta:
   - Persona -> Atributos:
-      · nombre
-      · ID
+      - nombre
+      - ID
 Subclases de Persona:
   - ProfesorTiempoCompleto (atribuuto adicional: salarioMensual).
   - ProfesorPorHoras (atributos adicionales: horasTrabajadas, pagoPorHora).
@@ -47,5 +47,56 @@ Clase:
   - PagoInvalidoExeption -> Si el pago de un profesor es <= 0.
   - PromedioInvalidoExeption -> Si un estudiante no tiene calificaiones registradas.
 
+## Actividades del estudiante
 
+### Fase 1 (Desarrollo en Java):
+  - Diseñar y codificar el sistema completo en Java.
+  - Validar funcionamiento de:
+      - Interfaces.
+      - Herencia.
+      - Polimorfismo.
+      - Exepciones personalizadas.
+
+### Fase 2 (Traducción a Python):
+
+  - Traducir el código funcional de Java a Python.
+  - Adaptar:
+      - Interfaces (usando abc en Python).
+      - Exepciones.
+      - Polimorfismo.
+
+### Gestión del desarrollo
+
+  - Uso de repositorio.
+  - Uso de tablero para asignación de actividades.
+
+## Pasos para Ejecutar el Programa
+
+1. **Clonar el Repositorio**:
+   Si no tienes el proyecto localmente, clónalo con el siguiente comando:
+   
+   ```bash
+   [git clone ]
+   
+2. Abrir el Proyecto: Abre el archivo .py en tu IDE o editor preferido.
+
+3. Compilar el Programa.
+
+4. Ejecutar el Programa.
+
+
+## Tecnologías Utilizadas
+- Lenguaje: [Python, Java]  
+- GitHub para el control de versiones.
+- Planner.
 Link planner https://planner.cloud.microsoft/webui/v1/plan/49dO-hg3SUyIBkPguUcFSGQABzTO?tid=f94bf4d9-8097-4794-adf6-a5466ca28563
+
+## Autores
+Desarrollado por 
+
+Carranza Mercado Jesus Eduardo  
+Gonzalez Pérez Monserrat  
+Pérez Méndez Nancy Esmeralda  
+
+## Licencia
+Este proyecto está bajo la Licencia MIT. Puedes usar, modificar y distribuir este código de acuerdo con los términos de la licencia.
