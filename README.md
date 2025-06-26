@@ -76,7 +76,7 @@ Clase:
    Si no tienes el proyecto localmente, clónalo con el siguiente comando:
    
    ```bash
-   [git clone ]
+   [git clone https://github.com/cherrycita-dev/Gestion-de-cursos-academicos/tree/main?tab=readme-ov-file]
    
 2. Abrir el Proyecto: Abre el archivo .py en tu IDE o editor preferido.
 
